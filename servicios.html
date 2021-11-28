@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+</head>
+
+<style>
+    body{
+        background: url('imagen.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    nav{
+	    background: black;
+	    height: 90px;
+	    display: flex;
+	    position: sticky;
+	    top: 0;
+	    overflow: hidden;
+    }
+    nav a{
+	    flex: 1;
+	    height: 100%;
+	    text-transform: uppercase;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    text-align: center;
+	    color: white;
+	    transition: .2s ease-in-out all;
+	    font-weight: 500;
+	    letter-spacing: 4px;
+        text-decoration: none;
+    } 
+	.tituloHome {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height:  calc(100vh - 80px);
+	}
+
+	.tituloHome h1{
+		font-size: 80px;
+		color: white;
+	}
+
+	.tituloHome a{
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+	}
+
+    .seccion {
+	min-height: 100vh;
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+
+	padding-top: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+.seccion .card {
+	background: #1a0321;
+	height: 90%;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: rgb(255, 45, 237) 2px 8px 24px;
+}
+
+.seccion h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.seccion p {
+	line-height: 38px;
+	margin-bottom: 40px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.enlaces {
+	align-content: center;
+}
+
+.seccion iframe {
+	align-content: center;
+}
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+    <nav id="menu" class="nav_enlace">
+
+		<a href="/">Inicio</a>
+		<a href="/servicios">servicios</a>
+		<a href="/acerca">acerca de nosotros</a>
+		<a href="/contactos">contactanos</a>
+		
+		
+
+		<span class="indicador" id="indicador"></span>
+
+	</nav>
+
+	<div class="secciones">
+
+
+		<div class="seccion" id="1">
+			<div class="card">
+				<h1>BlueStacks</h1>
+				<img src="bluestacks-min.jpg" alt="">
+				<p>BlueStacks es tal vez el emulador más usado para jugar Free Fire, cuenta con varias versiones con diferentes características, aquí te recomiendo algunas de las más interesantes:</p>  <a href="https://www.mediafire.com/file/33g85cyqfb8td9v/BlueStacksMicroInstaller_4.240.30.1002_native.exe/file">BlueStacks 4.240</a> <br> <a href="https://www.mediafire.com/file/fxekfm17bpffu1l/BlueStacks-Installer_4.90.0.1046_amd64_native.exe/file">BlueStacks 4.90 x64bits  </a>  <br>   <a href="https://www.filehorse.com/es/descargar-bluestacks/">    BlueStacks 4.90 x32bits</a> <br>  <a href="https://www.bluestacks.com/bluestacks-5.html">BlueStacks 5 actualizado</a>
+			</div>
+		</div>
+
+
+		<div class="seccion" id="2">
+			<div class="card">
+				<h1>Smart Gaga</h1>
+				<img src="img/smartGaga-min.jpg" alt="">
+				<p>SmartGaga es el emulador preferido por jugadores de bajos recursos en hardware, un consejo es que solo lo uses si tienes una pc de bajos recursos, las más recomendadas son las siguientes: </p>  <a href="https://www.mediafire.com/file/lnflb7uu540h7vh/SmartGaga_1.1.646.1_original_e_com_todas_as_contas.exe/file">SmartGaga 1.1 </a> <br>  <a href="https://www.mediafire.com/file/fdrhzexxjrw6w1m/Smart_gaga_facebook.exe/file">SmartGaga 3.1 Lite</a> <br> <a href="https://www.mediafire.com/file/ixurom5310v6gz5/gaga171.exe/file">SmartGaga 171</a> <br> <a href="https://www.mediafire.com/file/3hhx3mpxb753d0f/Setup_AndroidFs442_1.1.646.1.exe/file">SmartGaga Android 4</a>
+			</div>
+		</div>
+
+
+
+		<div class="seccion" id="3">
+			<div class="card">
+				<h1>Msi App Player</h1>
+				<img src="img/msi-min.jpg" alt="">
+				<p> Msi App Player es otro gran emulador construido en base a BlueStacks, actualmente es el emulador que estoy utilizando para jugar, aquí te dejo las mejores versiones que hay: </p>  <a href="https://www.mediafire.com/file/kgccctwat23txhb/MSI-APP-Player%20(1).zip/file">Msi 4.80 </a> <br> <a href="https://www.msi.com/Landing/appplayer">Msi 4.240 actualizado</a> <br> 
+			</div>
+		</div>
+
+
+
+		<div class="seccion" id="4">
+			<div class="card">
+				<h1>LD Player</h1>
+				<img src="img/ld player-min.jpg" alt="">
+				<p>LD player es otra buena opción si no cuentas con una buena pc, es un emualaor que ha venido aumentando usuarios a lo largo del tiempo, aquí lo puedes descargar desde la página oficial </p>  <a href="https://es.ldplayer.net/?n=65786522#utm_source=aff&utm_medium=aff&utm_campaign=aff65786522">LD Player V4.0.68</a> <br> 
+			</div>
+		</div>
+
+
+		<div class="seccion" id="5">
+			<div class="card">
+				<h1>Otros</h1>
+				<img src="img/otros-min.jpg" alt="">
+				<p>Estos últimos emuladores son poco usados, pero no dejan de ser buenos, entre ellos tenemos a MemuPlay, GameLoop y otros emuladores muy poco conocidos por estar en idiomas diferentes, descargas: </p> <a href="https://www.gameloop.com/es/">GameLoop</a> <br> <a href="https://www.memuplay.com/">MemuPlay</a> <br> <a href="https://esdigitales.com/aplicaciones/emulador-momo/?download=links">Momo</a>
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+
+    
+</body>
+</html>

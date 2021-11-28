@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<style>
+    body{
+        background: url('imagen.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    nav{
+	    background: black;
+	    height: 90px;
+	    display: flex;
+	    position: sticky;
+	    top: 0;
+	    overflow: hidden;
+    }
+    nav a{
+	    flex: 1;
+	    height: 100%;
+	    text-transform: uppercase;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    text-align: center;
+	    color: white;
+	    transition: .2s ease-in-out all;
+	    font-weight: 500;
+	    letter-spacing: 4px;
+        text-decoration: none;
+    } 
+	.tituloHome {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height:  calc(100vh - 80px);
+	}
+
+	.tituloHome h1{
+		font-size: 80px;
+		color: white;
+	}
+
+	.tituloHome a{
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+	}
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+    <nav id="menu" class="nav_enlace">
+
+		<a href="/">Inicio</a>
+		<a href="/servicios">servicios</a>
+		<a href="/acerca">acerca de nosotros</a>
+		<a href="/contactos">contactanos</a>
+		
+		
+
+		<span class="indicador" id="indicador"></span>
+
+	</nav>
+
+	<div class="tituloHome" id="hero">
+		<h1 id="tituloHome">NOMBRE EMPRESA</h1>
+		<p><a id="eslogan" href="">nuestro eslogan</a></p>
+	</div>
+
+
+
+
+    
+</body>
+</html>
